@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Herramientas</title>
+         <!-- 5- vinculacion de css -->
+         <link rel="stylesheet" href="./recursos/css/estilos.css">
+         <!-- 12- vinculacion de un archivos js -->
+        <script type="module" src="./recursos/js/principal.js"></script>
+    </head>
+    <body>
+        <header class="cabecera">
+            <h1>Herramientas</h1>
+            <nav class="menu-principal">
+                <!-- menu 
+                1-conectamos las 2 paginas
+                -->
+                <a href="./index.html" class="menu-principal__link">Inicio</a>
+                <a href="./contacto.html"class="menu-principal__link">Contacto</a>
+            </nav>
+        </header>
+        <main class="cuerpo">
+            <figure class="cuerpo__figure">
+                <!-- imagen
+                2--ponemos las imagenes
+                -->
+                <img src="recursos/imagenes/cabecera-contacto.jpg" alt="contacto" srcset="">
+                <img src="recursos/imagenes/cabecera-index.jpg" alt="contacto" srcset="">
+                
+            </figure>
+            <section>
+                <header class="cuerpo-cabecera">
+                    <h2>Artículos</h2>
+                    <p class="cuerpo-cabecera__parrafo">Encuentre los mejores artículos de ferretería.</p>
+                </header>
+                <!-- contenedor -->
+                <div class="contenedor-articulos" id="contenedor-articulos">
+                    <!-- contenido a repetir -->
+                    <article class="articulo">
+                        <figure class="articulo__fig">
+                            <img src="" alt="" />
+                        </figure>
+                        <div class="articulo__datos">
+                            <h3>Titulo</h3>
+                            <div>$ 3000</div>
+                        </div>
+                    </article>
+                    <!-- fin contenido a repetir -->
+                </div>
+            </section>
+        </main>
+        <footer class="pie">
+            <h5>AW1</h5>
+        </footer>
+    </body>
+</html>

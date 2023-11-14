@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- 5- vinculacion de css -->
+        <link rel="stylesheet" href="./recursos/css/estilos.css">
+        <title>Herramientas</title>
+    </head>
+    <body>
+        <header class="cabecera">
+            <h1>Herramientas</h1>
+            <nav class="menu-principal">
+                <!-- menu -->
+                <a href="./index.html" class="menu-principal__link">Inicio</a>
+                <a href="./contacto.html"class="menu-principal__link">Contacto</a>
+            </nav>
+        </header>
+        <main class="cuerpo">
+            <figure class="cuerpo__figure">
+                <!-- img -->
+                <img src="./recursos/imagenes/cabecera-contacto.jpg" alt="contacto" srcset="">
+            </figure>
+            <section>
+                <header class="cuerpo-cabecera">
+                    <h2>Contacto</h2>
+                </header>
+                <!-- 3- insertamos el metodo post -->
+                <form class="form" action="./contacto.html" method="post">
+                    <label for="id-nombre">Nombre</label>
+                    <input
+                        id="id-nombre"
+                        type="text"
+                        minlength="3"
+                        placeholder="su nombre"
+                        required
+                    />
+                    <label for="id-email">Email</label>
+                    <input
+                        id="id-email"
+                        type="email"
+                        placeholder="email@email.com"
+                        required
+                    />
+                    <!-- 
+                        4- agregamos el label y text area
+                     -->
+                    <label for="comentario" required></label>
+                    <textarea name="comentario" id="comentario " cols="30" rows="10" required></textarea>
+
+                    <button type="submit">Enviar consulta</button>
+                </form>
+            </section>
+        </main>
+        <footer class="pie">
+            <h5>AW1</h5>
+        </footer>
+    </body>
+</html>
